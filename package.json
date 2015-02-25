@@ -1,0 +1,18 @@
+{
+  "name": "bs2-nwjs",
+  "version": "0.0.1",
+  "devDependencies": {
+    "node-webkit-builder": "^0.4.0"
+  },
+  "main": "index.html",
+  "scripts": {
+    "postinstall" : "./postinstall.sh",
+    "start": "nwbuild -r ."
+  },
+  "author": "Jacob Rosenthal",
+  "license": "MIT",
+  "dependencies": {
+    "serialport": "git://github.com/jacobrosenthal/node-serialport.git#break",
+    "bs2-programmer": "git://github.com/jacobrosenthal/bs2-programmer.git"
+  }
+}
